@@ -3,7 +3,7 @@ import Toggle from "../Toggle/Toggle";
 
 const Navbar = () => {
   return (
-    <div className="breadcrumbs-horizontal font-merry cursor-pointer top-0 sticky left-0 z-30 lg:text-lg text-sm">
+    <div className="breadcrumbs-horizontal font-merry cursor-pointer top-0 sticky z-30 lg:text-lg text-sm">
       <ul className=" my-3">
         <li className="py-2">Intro</li>
         <li className="py-2">
@@ -17,7 +17,7 @@ const Navbar = () => {
         <li className="py-2">Github</li>
         <li className="py-2">Contact</li>
       </ul>
-      <button className="btn lg:text-lg text-sm btn-accent">Resume</button>
+      <button className="btn md:text-lg text-sm btn-accent">Resume</button>
       <div className="py-2 my-2">
         <Toggle />
       </div>
