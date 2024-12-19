@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tools = () => {
 
-    let arr = ["Git", "VScode", "Postman", "MongodbAtlas", "Npm", "DevTools","Command Line" ]
+    let arr = ["Git", "VScode", "Postman", "MongodbAtlas", "Npm", "DevTools","Command Line","ThunderClient","Vercel","Netlify","Render" ]
   return (
     <div className="bg-base-200">
     <div className="place-items-center py-3">

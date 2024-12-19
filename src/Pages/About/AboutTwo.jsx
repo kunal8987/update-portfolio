@@ -53,7 +53,7 @@ const AboutTwo = () => {
         </div>
         <div className="divider divider-accent">OR</div>
         <div className="card bg-base-300 rounded-box py-3 grid h-auto place-items-center">
-          <h1 className="lg:text-4xl text-2xl font-merry font-bold">
+          <h1 className="lg:text-4xl text-center text-2xl font-merry font-bold">
             Experience Design & Functionality
           </h1>
           <p className="p-3 font-lora text-lg">
