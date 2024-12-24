@@ -1,5 +1,5 @@
 import React from "react";
-
+import Resume from "../../Asset/KunalDeotale-FrontendDeveloper(React)-T7mk.pdf";
 const Intro = () => {
   return (
     <div>
@@ -20,7 +20,17 @@ const Intro = () => {
               Kunal Deotale <br /> Full-Stack Web Developer
             </p>
             <button className="btn md:text-lg text-sm font-merry btn-accent">
-              Resume
+              <a
+                href={Resume}
+                download
+                onClick={() =>
+                  window.open(
+                    "https://drive.google.com/file/d/1W2v_oq54C1cVHX5ol9osY2wptRFFq94d/view?usp=sharing"
+                  )
+                }
+              >
+                Resume
+              </a>
             </button>
           </div>
         </div>
