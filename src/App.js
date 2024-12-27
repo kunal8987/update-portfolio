@@ -6,6 +6,7 @@ import Contact from "./Pages/Contact/Contact";
 import Experience from "./Pages/Experience/Experience";
 import Github from "./Pages/Github/Github";
 import Intro from "./Pages/Intro/Intro";
+import Project from "./Pages/Projects/Project";
 import Techinical from "./Pages/Skills/Techinical/Techinical";
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <Techinical />
         <div className="divider divider-accent"></div>
         <Experience />
+        <div className="divider divider-accent"></div>
+        <Project />
         <div className="divider divider-accent"></div>
         <Github />
         <div className="divider divider-accent"></div>
