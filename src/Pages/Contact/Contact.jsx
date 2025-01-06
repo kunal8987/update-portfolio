@@ -31,8 +31,7 @@ const Contact = () => {
         </nav>
         <aside>
           <p className=" font-merry font-semibold text-lg">
-            Copyright © {new Date().getFullYear()} - All Right Reserved By KUNAL
-            DEOTALE
+            Copyright © {new Date().getFullYear()} - Made By KUNAL DEOTALE
           </p>
         </aside>
       </footer>

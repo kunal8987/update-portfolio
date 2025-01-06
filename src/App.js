@@ -27,7 +27,7 @@ function App() {
         <Experience />
         <div className="divider divider-accent"></div>
         <Project />
-        <div className="divider divider-accent"></div>
+        {/* <div className="divider divider-accent"></div> */}
         <Github />
         <div className="divider divider-accent"></div>
         <Contact />
