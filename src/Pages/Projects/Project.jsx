@@ -3,7 +3,7 @@ import { ProjectData } from "./Data";
 
 const Project = () => {
   return (
-    <div>
+    <div id="projects">
       <div className="place-items-center">
         <h1 className="md:text-5xl text-3xl font-merry font-bold">Projects</h1>
       </div>

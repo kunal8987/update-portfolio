@@ -22,9 +22,9 @@ function App() {
         <div className="divider divider-accent"></div>
         <AboutTwo />
         <div className="divider divider-accent"></div>
-        <Techinical />
-        <div className="divider divider-accent"></div>
         <Experience />
+        <div className="divider divider-accent"></div>
+        <Techinical />
         <div className="divider divider-accent"></div>
         <Project />
         {/* <div className="divider divider-accent"></div> */}

@@ -21,7 +21,7 @@ const Techinical = () => {
   ];
 
   return (
-    <div className="bg-base-200">
+    <div id="skills" className="bg-base-200">
       <div className="place-items-center py-3">
         <h1 className="md:text-5xl text-3xl p-4 font-merry font-bold">
           Technical Skills

@@ -2,7 +2,7 @@ import React from "react";
 
 const Github = () => {
   return (
-    <div className="bg-base-200 py-12">
+    <div id="github" className="bg-base-200 py-12">
       <div className="place-items-center">
         <h1 className="md:text-5xl text-3xl font-merry font-bold">
           Git-Calender

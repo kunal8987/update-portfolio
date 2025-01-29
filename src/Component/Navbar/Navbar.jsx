@@ -1,21 +1,62 @@
 import React from "react";
 import Toggle from "../Toggle/Toggle";
+import { Link } from "react-scroll";
 import Resume from "../../Asset/KunalDeotale-FrontendDeveloper(React)-T7mk.pdf";
+
 const Navbar = () => {
   return (
     <div className="breadcrumbs-horizontal font-merry cursor-pointer top-0 sticky z-30 lg:text-lg text-sm">
       <ul className=" my-3">
-        <li className="py-2">Intro</li>
         <li className="py-2">
-          <a>About</a>
+          <Link to="intro" smooth={true} duration={1500}>
+            {" "}
+            {/* updated */}
+            Intro
+          </Link>
         </li>
-        <li className="py-2">Experience</li>
-        <li className="py-2">Projects</li>
         <li className="py-2">
-          <a>Skills</a>
+          <Link to="about" smooth={true} duration={1500}>
+            {" "}
+            {/* updated */}
+            About
+          </Link>
         </li>
-        <li className="py-2">Github</li>
-        <li className="py-2">Contact</li>
+        <li className="py-2">
+          <Link to="experience" smooth={true} duration={1500}>
+            {" "}
+            {/* updated */}
+            Experience
+          </Link>
+        </li>
+        <li className="py-2">
+          <Link to="skills" smooth={true} duration={1500}>
+            {" "}
+            {/* updated */}
+            Skills
+          </Link>
+        </li>
+        <li className="py-2">
+          <Link to="projects" smooth={true} duration={1500}>
+            {" "}
+            {/* updated */}
+            Projects
+          </Link>
+        </li>
+
+        <li className="py-2">
+          <Link to="github" smooth={true} duration={1500}>
+            {" "}
+            {/* updated */}
+            Github
+          </Link>
+        </li>
+        <li className="py-2">
+          <Link to="contact" smooth={true} duration={1500}>
+            {" "}
+            {/* updated */}
+            Contact
+          </Link>
+        </li>
       </ul>
       <button className="btn md:text-lg text-sm btn-accent">
         <a

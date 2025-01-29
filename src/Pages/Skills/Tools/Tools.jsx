@@ -4,7 +4,7 @@ const Tools = () => {
 
     let arr = ["Git", "VScode", "Postman", "MongodbAtlas", "Npm", "DevTools","Command Line","ThunderClient","Vercel","Netlify","Render" ]
   return (
-    <div className="bg-base-200">
+    <div id='skills' className="bg-base-200">
     <div className="place-items-center py-3">
       <h1 className="md:text-5xl text-3xl p-4 font-merry font-bold">
         Tools

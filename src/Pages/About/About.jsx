@@ -1,14 +1,11 @@
 import React from "react";
-
+import kunal from "../../Asset/Kunal.JPG";
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <div className="hero bg-base-200 min-h-screen">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
-            className="max-w-sm rounded-lg shadow-2xl"
-          />
+          <img src={kunal} className=" md:max-w-sm rounded-lg shadow-2xl" />
           <div>
             <div className="place-items-center py-3">
               <h1 className="md:text-5xl text-3xl font-merry font-bold">

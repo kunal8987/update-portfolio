@@ -2,7 +2,7 @@ import React from "react";
 import Resume from "../../Asset/KunalDeotale-FrontendDeveloper(React)-T7mk.pdf";
 const Intro = () => {
   return (
-    <div>
+    <div id="intro">
       <div
         className="hero min-h-screen"
         style={{

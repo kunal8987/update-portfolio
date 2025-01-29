@@ -11,7 +11,7 @@ const Contact = () => {
     },
   ];
   return (
-    <div className="bg-base-200 flex-col md:flex-row">
+    <div id="contact" className="bg-base-200 flex-col md:flex-row">
       <footer className="footer footer-center text-base-content rounded p-5">
         <div className="place-items-center">
           <h1 className="md:text-5xl text-3xl font-merry font-bold">
